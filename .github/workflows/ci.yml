@@ -1,9 +1,9 @@
 name: Python CI w test
 on 
     push:
-        branches: [$default_branch]
+        branches: [main]
     pull_request:
-        branches: [$default_branch]
+        branches: [main]
 permissions:
     contents: read
 
